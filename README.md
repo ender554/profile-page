@@ -45,6 +45,18 @@ The portfolio is designed to be responsive and follows a mobile-first approach, 
 
 5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
+## Contributing to the Project
+
+### Branching Strategy
+
+- **master**: The production-ready branch.
+- **feature branches**: Feature work is done in individual feature branches (`feature/feature-name`).
+- **hotfix branches**: Hotfixes go directly into `master` and `dev`.
+
+### Guidelines
+
+- All code must be thoroughly tested before merging into `master`.
+
 ## Usage
 
 This project demonstrates:
