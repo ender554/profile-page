@@ -38,3 +38,5 @@ Thumbs.db
 # Package lock files (optional, depending on your version control strategy)
 package-lock.json
 yarn.lock
+
+.env
