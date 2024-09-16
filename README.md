@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Personal Profile and Portfolio Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project serves as my personal portfolio and resume page, built to showcase my skills as a front-end-focused full-stack developer. The site includes an interactive profile section and a separate page dedicated to widgets and embedded apps that demonstrate my full-stack development capabilities across various tools and technologies.
 
-In the project directory, you can run:
+The portfolio is designed to be responsive and follows a mobile-first approach, ensuring a smooth experience across devices.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Profile Section**: Includes an overview of my skills, experience, and links to my external profiles (GitHub, LinkedIn, etc.).
+- **Interactive Widgets**: A dedicated section showcasing embedded apps, interactive widgets, and code examples that demonstrate my proficiency with various full-stack development tools and technologies.
+- **Responsive Design**: Mobile-first design that adapts to various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Front-End**: React, JavaScript (ES6+), HTML5, CSS3.
+- **Back-End**: Node.js, Express (future addition for interactive elements with state-saving).
+- **Database**: MongoDB (future addition for storing user-interaction states).
+- **Testing**: Jest (for TDD).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/profile-page.git
+   ```
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd profile-page
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project demonstrates:
 
-## Learn More
+- My personal profile and experience as a developer.
+- Various widgets and embedded apps that highlight my full-stack development capabilities.
+- Future additions include server-side functionality and state persistence.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Roadmap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Add Interactive Widgets**: More embedded apps demonstrating advanced use of front-end frameworks, state management, and API integrations.
+- **Back-End Integration**: Set up a back-end server (Node.js/Express) for state-saving and login functionality.
+- **Database Setup**: Use MongoDB to store user states and interactions with the embedded widgets.
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/joshua-adams-061901b6/) or [email](mailto:joshadams554@gmail.com).
