@@ -1,0 +1,42 @@
+/* Profile.module.css */
+
+/* Default (Mobile-first) */
+.profilePage {
+  padding: 10px;
+  text-align: center;
+}
+
+.bio h1 {
+  font-size: 1.5rem;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  padding: 10px 0;
+}
+
+.contact {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Larger screens (Desktop) */
+@media (min-width: 768px) {
+  .profilePage {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .bio h1 {
+    font-size: 2rem;
+  }
+
+  .contact {
+    font-size: 1rem;
+  }
+}
