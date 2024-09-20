@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Color variables stored but not applied yet */
+:root {
+  --primary-color: #f2511b;
+  --secondary-color: #1bf251;
+  --tertiary-color: #511bf2;
+
+  --text-color: #333; /* Adjust for readability */
+  --background-color: #fff; /* Default background color */
+}

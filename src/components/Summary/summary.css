@@ -1,0 +1,34 @@
+/* Mobile-first styles */
+.summary-section {
+  padding: 15px;
+  text-align: center;
+}
+
+.summary-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.summary-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* Larger screens (Desktop) */
+@media (min-width: 768px) {
+  .summary-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .summary-section h2 {
+    font-size: 2rem;
+  }
+
+  .summary-section p {
+    font-size: 1.2rem;
+  }
+}
