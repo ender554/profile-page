@@ -1,5 +1,5 @@
 import React from 'react';
-import './Summary.css';
+import './summary.css';
 
 const Summary = () => {
   return (

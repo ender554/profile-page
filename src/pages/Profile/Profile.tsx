@@ -1,5 +1,5 @@
 import React from 'react';
-import './Profile.css';
+import './profile.css';
 import Header from '../../components/Header/Header';
 import Summary from '../../components/Summary/Summary';
 import Contact from '../../components/Contact/Contact';
