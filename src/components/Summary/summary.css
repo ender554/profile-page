@@ -1,34 +1,29 @@
-/* Mobile-first styles */
-.summary-section {
-  padding: 15px;
-  text-align: center;
+.summary {
+  text-align: left;
+  padding: 20px;
 }
 
-.summary-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: var(--primary-color);
+h1 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
 }
 
-.summary-section p {
-  font-size: 1rem;
-  line-height: 1.6;
+p {
   color: var(--text-color);
+  font-size: 1.2rem;
 }
 
-/* Larger screens (Desktop) */
-@media (min-width: 768px) {
-  .summary-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .summary {
+    text-align: center;
   }
 
-  .summary-section h2 {
+  h1 {
     font-size: 2rem;
   }
 
-  .summary-section p {
-    font-size: 1.2rem;
+  p {
+    font-size: 1.1rem;
   }
 }

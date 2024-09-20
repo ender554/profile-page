@@ -1,6 +1,34 @@
 /* General page styles */
 .profile-page {
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh; /* Ensure it covers full height of viewport */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Section Layout */
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(
+    --tertiary-color
+  ); /* Apply a different background color here */
+  padding: 40px 20px;
+  width: 100vw; /* Take full width */
+  box-sizing: border-box;
+}
+
+.header,
+.summary,
+.contact {
+  width: 100%;
+  max-width: 1200px; /* Center and limit content width */
   text-align: center;
 }
 
@@ -17,36 +45,9 @@
   margin: 0 auto;
 }
 
-h1 {
-  font-size: 1.8rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
 /* Summary Section */
 .summary {
   margin-bottom: 20px;
-}
-
-.summary h2 {
-  font-size: 1.5rem;
-}
-
-.summary p {
-  font-size: 1rem;
-}
-
-/* Skills Section */
-.skills ul {
-  list-style: none;
-  padding: 0;
-}
-
-.skills li {
-  font-size: 1rem;
-  padding: 5px 0;
 }
 
 /* Contact Section */
@@ -54,10 +55,18 @@ p {
   margin-top: 20px;
 }
 
-.contact h2 {
-  font-size: 1.5rem;
-}
+/* Full-size layout (desktop) */
+@media (min-width: 768px) {
+  .top-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 40px;
+  }
 
-.contact p {
-  font-size: 1rem;
+  .header,
+  .summary,
+  .contact {
+    flex: 1;
+    text-align: center;
+  }
 }

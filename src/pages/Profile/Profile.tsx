@@ -1,17 +1,18 @@
 import React from 'react';
-import './profile.css';
+import './Profile.css';
 import Header from '../../components/Header/Header';
 import Summary from '../../components/Summary/Summary';
-import Skills from '../../components/Skills/Skills';
 import Contact from '../../components/Contact/Contact';
 
 const Profile = () => {
   return (
     <div className="profile-page">
-      <Header />
-      <Summary />
-      <Skills />
-      <Contact />
+      <div className="top-section">
+        <Summary />
+        <Header />
+        <Contact />
+      </div>
+      {/* Skills section would go here */}
     </div>
   );
 };

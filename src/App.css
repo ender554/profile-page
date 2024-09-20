@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -40,9 +45,9 @@
 /* Color variables stored but not applied yet */
 :root {
   --primary-color: #f2511b;
-  --secondary-color: #1bf251;
-  --tertiary-color: #511bf2;
+  --secondary-color: #1bbcf2;
+  --tertiary-color: #1a1a1a;
 
-  --text-color: #333; /* Adjust for readability */
+  --text-color: #fff; /* Adjust for readability */
   --background-color: #fff; /* Default background color */
 }

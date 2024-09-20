@@ -1,38 +1,36 @@
 import React from 'react';
-import './contact.css';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <section className="contact-section">
-      <h2>Contact</h2>
-      <ul className="contact-list">
+    <div className="contact">
+      <ul className="contact-links">
         <li>
-          <strong>Email:</strong>{' '}
-          <a href="mailto:joshadams554@gmail.com">joshadams554@gmail.com</a>
+          <a href="tel:+1234567890">Phone</a>
         </li>
         <li>
-          <strong>GitHub:</strong>{' '}
-          <a
-            href="https://github.com/ender554"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ender554
-          </a>
+          <a href="mailto:joshadams554@gmail.com">Email</a>
         </li>
         <li>
-          <strong>LinkedIn:</strong>{' '}
           <a
             href="https://www.linkedin.com/in/your-linkedin-profile"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn Profile
+            LinkedIn
           </a>
         </li>
-        {/* Add phone number or any other contact info if you want */}
+        <li>
+          <a
+            href="https://github.com/ender554"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </li>
       </ul>
-    </section>
+    </div>
   );
 };
 

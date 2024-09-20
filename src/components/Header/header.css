@@ -1,77 +1,28 @@
-/* Mobile-first design */
-.profile-header {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background-color: white;
-  border-bottom: 2px solid #f2f2f2;
-}
-
-/* Styling the profile image */
-.profile-photo {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 15px;
-}
-
-/* Styling for the profile name and title */
-.profile-info {
+.header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
-.profile-name {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  padding: 5px; /* To create space for the background gradient */
+  background-clip: padding-box;
+  border: 5px solid transparent;
 }
 
-.profile-title {
-  font-size: 1rem;
-  color: gray;
-  margin-top: 5px;
+h2 {
+  margin-top: 10px;
+  color: var(--primary-color);
 }
 
-/* Contact info section */
-.contact-info {
-  margin-top: 8px;
-  display: flex;
-  gap: 10px;
-}
-
-.contact-item {
-  font-size: 0.9rem;
-  color: var(--tertiary-color);
-  text-decoration: none;
-}
-
-.contact-item:hover {
-  text-decoration: underline;
-}
-
-/* Larger screen adjustments */
-@media (min-width: 768px) {
-  .profile-header {
-    padding: 40px;
-  }
-
-  .profile-photo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .profile-name {
-    font-size: 2.2rem;
-  }
-
-  .profile-title {
-    font-size: 1.2rem;
-  }
-
-  .contact-item {
-    font-size: 1rem;
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 20px;
   }
 }

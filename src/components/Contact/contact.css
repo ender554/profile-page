@@ -1,45 +1,35 @@
-/* Mobile-first styles */
-.contact-section {
-  padding: 15px;
-  text-align: center;
+.contact {
+  text-align: right;
+  padding: 20px;
 }
 
-.contact-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: var(--primary-color);
-}
-
-.contact-list {
-  list-style: none;
+.contact-links {
+  list-style-type: none;
   padding: 0;
 }
 
-.contact-list li {
-  font-size: 1rem;
-  padding: 10px 0;
-  color: var(--text-color);
+.contact-links li {
+  margin: 10px 0;
 }
 
-.contact-list a {
-  color: var(--secondary-color);
+.contact-links a {
+  color: var(--primary-color);
   text-decoration: none;
 }
 
-.contact-list a:hover {
+.contact-links a:hover {
   color: var(--tertiary-color);
-  text-decoration: underline;
 }
 
-/* Larger screens (Desktop) */
-@media (min-width: 768px) {
-  .contact-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .contact {
+    text-align: center;
+    margin-top: 20px;
   }
 
-  .contact-list li {
-    font-size: 1.2rem;
+  .contact-links li {
+    display: inline-block;
+    margin-right: 10px;
   }
 }
