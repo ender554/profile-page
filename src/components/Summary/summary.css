@@ -1,0 +1,29 @@
+.summary {
+  text-align: left;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+
+p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .summary {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,35 @@
+.contact {
+  text-align: right;
+  padding: 20px;
+}
+
+.contact-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-links li {
+  margin: 10px 0;
+}
+
+.contact-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: var(--tertiary-color);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .contact {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
