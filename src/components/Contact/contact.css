@@ -1,6 +1,20 @@
-.contact {
-  text-align: right;
-  padding: 20px;
+.contact-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.material-icons {
+  margin-right: 8px; /* Adds gap between icon and text */
+  color: #fff;
+}
+
+.brand-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Adds gap between brand icons and text */
 }
 
 .contact-links {
@@ -8,28 +22,6 @@
   padding: 0;
 }
 
-.contact-links li {
-  margin: 10px 0;
-}
-
-.contact-links a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.contact-links a:hover {
-  color: var(--tertiary-color);
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .contact {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .contact-links li {
-    display: inline-block;
-    margin-right: 10px;
-  }
+.contact {
+  justify-content: flex-end;
 }

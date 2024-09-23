@@ -4,7 +4,6 @@
   padding: 0;
   width: 100%;
   min-height: 100vh; /* Ensure it covers full height of viewport */
-  text-align: center;
   display: flex;
   flex-direction: column;
 }
@@ -24,12 +23,14 @@
   box-sizing: border-box;
 }
 
+/* Individual sections with full width on mobile */
 .header,
 .summary,
 .contact {
   width: 100%;
   max-width: 1200px; /* Center and limit content width */
   text-align: center;
+  margin: 0 auto;
 }
 
 /* Header Section */
@@ -59,14 +60,23 @@
 @media (min-width: 768px) {
   .top-section {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; /* Space the sections equally */
+    align-items: center; /* Align the sections vertically */
     padding: 60px 40px;
   }
 
   .header,
   .summary,
   .contact {
-    flex: 1;
-    text-align: center;
+    flex: 1; /* Make each section take equal space */
+    text-align: left; /* Left-align the content by default */
+  }
+
+  .header {
+    text-align: center; /* Center the Header section */
+  }
+
+  .contact {
+    text-align: right; /* Right-align the Contact section */
   }
 }

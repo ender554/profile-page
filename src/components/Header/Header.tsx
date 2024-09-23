@@ -9,7 +9,7 @@ const Header = () => {
         alt="Joshua Adams"
         className="profile-photo"
       />
-      <h2>Software Developer</h2>
+      <h2>Joshua Adams</h2>
     </div>
   );
 };
